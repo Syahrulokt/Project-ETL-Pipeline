@@ -10,3 +10,19 @@ coverage report -m
 
 # Url Google Sheets:
 https://docs.google.com/spreadsheets/d/1zYB0DG5UUEohaKnHZNB2BCVaWZRlWq_eJ3_as8wiPN4/edit?usp=sharing
+
+#noted:
+buat file "google-sheets-api.json" dengan isi:
+{
+  "type": "service_account",
+  "project_id": "fashionetlproject-460208",
+  "private_key_id": "cd3d7f8d3862703976685e64f2a0bd54ebeaa15c",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDCxrLfXn5qTGwr\nPaZm4ky939YNaewkLvh6ZFUcL4iuZ+ldoTS9MRxu172N/4bf2T+Y24B7NUR66Ccd\nHAO+1SK3XQKSaSepEIjFakjv03tn1tFDYAW6VoUjtRkQqQe2UTigxZ+ziufGbZBb\nCvhrh3qd/1I9MWyD+oOr8LzgJo0jb+PiELDfC9P/TVeZMw6Y35dBSXgXiyWod65u\n18BcIoIheL7+CYQUpa+VUVEGZ8XVc/df4kRkOZgOdbsGJdlMPz8yEcMvQiQ1WMPE\nrEf6y11PppL+/cH896bgjNG411Qze3imdRVGNnjNU4/DolwYvVIkQKc8FfXdVjhq\nzJj20GN/AgMBAAECggEAAq2CpgmBiWqVjh6h3AY+cdnS8opDQdgXeG9KsEGDCorJ\nLY1a0UMMlgWHSJ17uDYfZrWV1ZvM3je02fSZpJT/ji/MKkEh13QvvS8R46IvryTH\n6bo3OfGYkP4bYxw/y+Tf923gHTLKrvKwql/DPI83Q1bQRaEZUdMu3j1IC3jcNeF8\nwl5LhDbj7qLCbehS5tAhNfLNbMQR8To1V8cpPbthpIh8/2XBa+UPpUczFtfP8RT+\nGJGke4j5juVJ287gfK0rzQKvwJYvg64jKF9FES5gYofSTz7bErc/D8qYVaqCzS/B\nphvbdpytYQ8jcQxvRXA1Y7/jFibu+kJm0HvXZmNhUQKBgQDyh4bCa/PowFU7QNVV\nF1Bphw6WdWYh+3o0mmMV5m221NBxX8vgG0Tcg8jV8JQTIqU90ND3yCPaYeCQlQ7J\n4F/zE79ckF1z2jeu55kzTQYR3/CR6dpJOcTx2ouQPJhe746E++i3nL2kVveYSzP7\nE4Hxk11uwFsO716opOY0G1181wKBgQDNmC3oDdP4c1YjiwLbkAp71zUXvZB/eKrq\nogWQ6yicugKBXK1axK1ivcJWtGYV47JC6upb5vcHTN/2InYo1fMM/YIzrxs2gLux\njtFSfaB7MkfOxdHWFBWBTSJ2ixCDIavu39IZVndpa7MNS5Lw01+CrF6UPuu8QWSl\nZj8TPz2RmQKBgQCCSAU/CYiTvkXKt7Ahro12sqNGdbgwhwuFmG2jxQ2oyjdSv9gg\nAeYC4xQOwNZ6VQEY7MRkZnHEDRH5+Ohhz5MbW79PNQnOgymoXibw5O5eycJMT6f/\n7/V4yiJwj+x2Cw+vJjdD8wH4dvM4LyW0OS1znOry5IfFxRY/V52F3jFhLwKBgQCN\nKxkaZaROzKMw9JqZuGX6cuL50igN3wU85tN7lnzkYLSnrsM5uCJ10mZGssgF77rP\nSA5z3Dtyv85oa3FGyOGC4e8tHedJnUtDuBTy12ACN5wm1p4mqNO7XQN08jf8UnqE\nIxtYWo7TzCe90U6sHfdO+pxWnn2vXheFmpdk19+mwQKBgQC7LW9Vd2fYGy+tdEgx\n+TABzQ8Ss2C+NECpugAJ/UoM6J5FiodINCJFrUr/HpjM/M2o2Y9FZ2Hv6VcrZ+nt\nd00Az1YYVuuqrpgO+6f/CGog8aaEkBumvhsF3kV1pLN+eSp8AFdncB5ZCqp4fWXM\nZCVKavkphescp6skLM34QZsCxQ==\n-----END PRIVATE KEY-----\n",
+  "client_email": "fashion-etl-sa@fashionetlproject-460208.iam.gserviceaccount.com",
+  "client_id": "104771086755529819741",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/fashion-etl-sa%40fashionetlproject-460208.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
