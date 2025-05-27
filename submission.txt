@@ -1,0 +1,12 @@
+#Cara menjalankan skrip ETL pipeline:
+python main.py
+
+#Cara menjalankan unit test:
+python -m pytest tests
+
+#Cara menjalankan test coverage:
+coverage run -m pytest tests
+coverage report -m
+
+# Url Google Sheets:
+https://docs.google.com/spreadsheets/d/1zYB0DG5UUEohaKnHZNB2BCVaWZRlWq_eJ3_as8wiPN4/edit?usp=sharing
